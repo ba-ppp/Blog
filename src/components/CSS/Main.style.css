@@ -30,39 +30,12 @@ h1{
 }
 
 .Head{
-    margin: 15px auto !important;
+    margin: 10px auto !important;
 }
 
-.nav {
-    position: absolute;
-    right: 0;
-    top: 0;
-    display:block;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-.nav > .list{
-    padding: 0 13px 0;
-    list-style: none;
-    margin: 0;
-    display: flex;
-}
 li{
     line-height: 2.4rem;
     font-weight: 300;
-    color: rgba(0, 0, 0, 0.9);
-}
-
-.linknav{
-    display: inline-block;
-    font-weight: 300;
-    font-size: 1.4rem;
-    padding: 20px 10px;
-    text-decoration: none;
-}
-
-.linknav:visited{
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -101,4 +74,10 @@ li{
 
 .link:hover{
     color: slateblue !important;
+}
+
+
+
+.body-menu{
+    margin-left: 70px;
 }

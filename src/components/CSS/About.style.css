@@ -1,0 +1,79 @@
+.nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display:block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.nav > .list{
+    padding: 0 13px 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+.linknav{
+    display: inline-block;
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+.linknav:visited{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-home {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.nav-home > .list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-home > .list > .item {
+    display: inline-block;
+}
+
+.nav-home > .list > .item > .link {
+    font-size: 2rem;
+    padding: 7px 15px;
+    margin: 0;
+    border-radius: 4%;
+    transition: all 0.4s ease-in-out;
+    width: 70px;
+    text-decoration: none;
+}
+
+.selfie{
+    
+    width: 15em;
+    height: 15em;
+    margin: 125px auto;
+    border-radius: 100%;
+    background-image: url('../../AVT.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+.about{
+    text-align: center;
+}
+
+p{
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 0.4px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}

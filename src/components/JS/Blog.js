@@ -1,16 +1,24 @@
-import React, { Component } from 'react';
-import '../CSS/Main.style.css';
+import React from 'react';
+import '../CSS/Blog.style.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import { Tooltip } from "@chakra-ui/core";
 
-
-class MainPage extends Component {
-    render() {
-        return (
-            <div className="Head">
-                <a href="#">
+export default function blog(){
+    return(
+        <div>
+            <nav className="nav">
+                <ul className="list">
+                    <li className="item">
+                        <a class="linknav" href="/">Home</a>
+                    </li>
+                    <li className="item">
+                        <a class="linknav" href="/blog">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#">
                     <div className="Avatar"></div>
                 </a>
                 <h1 className="title">Ba Phuong</h1>
@@ -32,22 +40,13 @@ class MainPage extends Component {
                     </Tooltip>
                     </a>
                 </div>
-                
-                    <nav className="nav-home">
-                        <ul className="list">
-                            <li className="item">
-                            <a href="/blog" className="link">Blog</a>
-                            </li>
-                            <li className="item body-menu">
-                            <a href="/about" className="link">About</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    
-                
-            </div>
-        );
-    }
+                <section className="list-blog">
+                    <div className="list-item">
+                        <a className="link-blog" href='/blog/firebase-co-nen-dung-cho-ung-dung-lon/'>
+                            <h3>Firebase (Realtime Databse) có nên dùng cho các ứng dụng lớn</h3>
+                        </a>
+                    </div>
+                </section>
+        </div>
+    )
 }
-
-export default MainPage;
