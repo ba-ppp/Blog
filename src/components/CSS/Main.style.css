@@ -1,0 +1,104 @@
+.body{
+    font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+}
+h1{
+    letter-spacing: -1px;
+    color: #222;
+    font-weight: 700;
+    margin: 0 0 13px;
+    font-size: 3rem;
+}
+
+.Avatar{
+    height: 12em;
+    width: 12em;
+    margin: 10em auto;
+    border-radius: 50%;
+    background-image: url('../../AVT.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    opacity: 1;
+}
+
+.Avatar:hover{
+    transform: scale(1.02);
+    transition: all 0.2s;
+    
+    opacity: 0.8;
+}
+
+.Head{
+    margin: 15px auto !important;
+}
+
+.nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display:block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.nav > .list{
+    padding: 0 13px 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+li{
+    line-height: 2.4rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.linknav{
+    display: inline-block;
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+.linknav:visited{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.description{
+    font-size: 1.85rem;
+    font-weight: 300;
+    font-style: normal;
+    color: #aaa;
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icon{
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.tooltip{
+    background-color: #222;
+    color: white;
+    line-height: 25px;
+}
+.link{
+    color: #222 !important;
+}
+.link:visited{
+    color: #222 !important;
+    background-color: #222;
+}
+
+.link:hover{
+    color: slateblue !important;
+}
