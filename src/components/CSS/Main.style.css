@@ -66,14 +66,17 @@ li{
 }
 .link{
     color: #222 !important;
+   
 }
 .link:visited{
     color: #222 !important;
     background-color: #222;
+    
 }
 
 .link:hover{
     color: slateblue !important;
+    transition: all 0.5s;
 }
 
 

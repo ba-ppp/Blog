@@ -43,3 +43,7 @@
 .link-blog:hover{
     color: #4b0082;
 }
+
+a{
+    color: #5d5a5a !important;
+}

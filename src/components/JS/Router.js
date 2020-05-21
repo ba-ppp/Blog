@@ -9,7 +9,7 @@ import MainPage from './MainPage';
 import About from './About';
 import Blog from './Blog';
 import Firebas from './Blog/firebase';
-
+import Airbnb from './Blog/airbnb';
 export default function CustomRouter() {
     return(
         <Router>
@@ -23,6 +23,9 @@ export default function CustomRouter() {
           </Route>
           <Route path="/blog/firebase-co-nen-dung-cho-ung-dung-lon/">
             <Firebas />
+          </Route>
+          <Route path="/blog/bnb-giu-chan-user">
+            <Airbnb />
           </Route>
           <Route path="/blog">
             <Blog />

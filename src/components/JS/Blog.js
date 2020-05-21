@@ -14,7 +14,7 @@ export default function blog(){
                         <a class="linknav" href="/">Home</a>
                     </li>
                     <li className="item">
-                        <a class="linknav" href="/blog">Blog</a>
+                        <a class="linknav" href="/about">About</a>
                     </li>
                 </ul>
             </nav>
@@ -43,7 +43,10 @@ export default function blog(){
                 <section className="list-blog">
                     <div className="list-item">
                         <a className="link-blog" href='/blog/firebase-co-nen-dung-cho-ung-dung-lon/'>
-                            <h3>Firebase (Realtime Databse) có nên dùng cho các ứng dụng lớn</h3>
+                            <h3>Firebase (Realtime Database) có nên dùng cho các ứng dụng lớn</h3>
+                        </a>
+                        <a className="link-blog" href='/blog/bnb-giu-chan-user'>
+                            <h3>Airbnb đã giữ chân user như thế nào ?</h3>
                         </a>
                     </div>
                 </section>

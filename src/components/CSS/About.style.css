@@ -74,6 +74,12 @@ p{
     font-weight: 300;
     margin-bottom: 20px;
     letter-spacing: 0.4px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.blog-about{
+    margin: 10px auto !important;
+    width: 1200px;
 }
