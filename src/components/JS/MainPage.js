@@ -10,7 +10,7 @@ class MainPage extends Component {
     render() {
         return (
             <div className="Head">
-                <a href="#">
+                <a href="/about">
                     <div className="Avatar"></div>
                 </a>
                 <h1 className="title">Ba Phuong</h1>

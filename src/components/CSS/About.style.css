@@ -6,6 +6,14 @@
     margin-top: 10px;
     margin-right: 10px;
 }
+/* @media Rule */
+all { width: 100vw; }
+@media all and (max-width: 1200px) {
+  p { width: 80%; };
+  .selfie {width: 50%;}
+}
+/* @import Rule */
+
 
 .nav > .list{
     padding: 0 13px 0;
@@ -52,7 +60,7 @@
 }
 
 .selfie{
-    
+  
     width: 15em;
     height: 15em;
     margin: 125px auto;
@@ -62,6 +70,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 25px;
+    
 }
 
 .about{
@@ -72,14 +81,19 @@ p{
     line-height: 1.7;
     color: rgba(0, 0, 0, 0.9);
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
     letter-spacing: 0.4px;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+    
+    margin: 0px 50px;
+}
+.parag{
+    padding: 10px auto !important;
 }
 
 .blog-about{
-    margin: 10px auto !important;
-    width: 1200px;
+    
+    width: 100%;
 }

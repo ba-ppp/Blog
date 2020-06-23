@@ -41,7 +41,7 @@
     color: #5d5a5a;
 }
 .link-blog:hover{
-    color: #4b0082;
+    color: #4b0082 !important;
 }
 
 a{
