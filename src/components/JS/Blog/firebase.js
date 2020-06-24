@@ -1,18 +1,19 @@
 import React from 'react';
-import "../../CSS/firebase.style.css"
+import "../../CSS/firebase.style.css";
+import { Link } from 'react-router-dom'
 export default function fireba(){
     return(
         <div className="blog-about">
              <nav className="nav">
                 <ul className="list">
                     <li className="item">
-                        <a class="linknav" href="/">Home</a>
+                        <Link class="linknav" to="/">Home</Link>
                     </li>
                     <li className="item">
-                        <a class="linknav" href="/blog">Blog</a>
+                        <Link class="linknav" to="/blog">Blog</Link>
                     </li>
                     <li className="item">
-                        <a class="linknav" href="/about">About</a>
+                        <Link class="linknav" to="/about">About</Link>
                     </li>
                 </ul>
             </nav>

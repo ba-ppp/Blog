@@ -4,6 +4,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import { Tooltip } from "@chakra-ui/core";
+import { Link } from 'react-router-dom';
 
 export default function blog(){
     return(
@@ -42,12 +43,12 @@ export default function blog(){
                 </div>
                 <section className="list-blog">
                     <div className="list-item">
-                        <a className="link-blog" href='/blog/firebase-co-nen-dung-cho-ung-dung-lon/'>
+                        <Link className="link-blog" to='/blog/firebase-co-nen-dung-cho-ung-dung-lon/'>
                             <h3>Firebase (Realtime Database) có nên dùng cho các ứng dụng lớn</h3>
-                        </a>
-                        <a className="link-blog" href='/blog/bnb-giu-chan-user'>
+                        </Link>
+                        <Link className="link-blog" to='/blog/bnb-giu-chan-user'>
                             <h3>Airbnb đã giữ chân user như thế nào ?</h3>
-                        </a>
+                        </Link>
                     </div>
                 </section>
         </div>
