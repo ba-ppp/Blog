@@ -16,7 +16,7 @@ export default function About(){
                     </li>
                 </ul>
             </nav>
-            <div className="selfie"></div>
+            <img className="selfie" src="../../AVT.JPG" alt=""></img>
             <p className="parag">Mình tên là Phương như ở trang Home các bạn đã nhìn thấy, thì mình hiện đang học tại trường Đại Học Cần Thơ.
                 Mình viết những blog này một phần là do mình muốn lưu lại những kiến thức đã tìm hiểu được và một phần là do mình muốn xem đây là một nơi kỷ niệm những
                 ngày đầu tiên mình làm quen với React.
