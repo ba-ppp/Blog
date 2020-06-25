@@ -1,12 +1,17 @@
 .img{
-    background-image: url('../../firebase-db.jpg');
+    background-image: url();
     border-radius: 4px;
-    max-width: 100%;
-    width: 80em;
-    height:45em;
+    max-width: 80%;
+    min-width: 40%;
+    /* width: 80em;
+    height: 45em; */
     background-position: center;
     background-size: cover;
-    margin: 100px auto !important;
+    margin: 100px 1px !important;
+}
+all { width: 100vw; }
+@media(max-width: 1200px) {
+  p { width: 80%; };
 }
 
 p{
@@ -25,9 +30,9 @@ h1{
 }
 
 .bnb{
-    background-image: url('../../airbnb-co-muc-thua-lo-hang-tram-trieu-do.png');
-    width: 40em;
-    height: 20em;
+    
+    max-width: 80%;
+    min-width: 40%;
     background-position: center;
     background-size: cover;
     margin: 80px auto;

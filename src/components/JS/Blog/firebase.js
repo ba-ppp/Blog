@@ -17,7 +17,7 @@ export default function fireba(){
                     </li>
                 </ul>
             </nav>
-            <div className="img"></div>
+            <img src={process.env.PUBLIC_URL + '/firebase-db.jpg'} className="img"></img>
             <p>
                 <h1>Firebase (Realtime Database) - Có nên dùng cho các ứng dụng lớn ?</h1>
             </p>
@@ -77,7 +77,7 @@ export default function fireba(){
             OK chúc các bạn thành công.
             </p>
             <p>
-                <b>Nguồn:</b> https://viettranx.com/blog/firebase-co-nen-dung-cho-ung-dung-lon/
+                <b>Nguồn:</b> <a href='https://viettranx.com/blog/firebase-co-nen-dung-cho-ung-dung-lon/'>viettranx.com</a>
             </p>
         </div>
     )

@@ -60,15 +60,14 @@ all { width: 100vw; }
 }
 
 .selfie{
-  
-    min-width: 10em;
-    max-width:15em;
+    width: 15em;
+    height: 15em;
     margin: 125px auto;
     border-radius: 100%;
-    /* background-image: url();
-    background-position: center;
+    background-image: url('../../AVT.JPG');
+     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
     margin-bottom: 25px;
     
 }

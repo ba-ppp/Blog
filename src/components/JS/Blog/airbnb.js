@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "../../CSS/firebase.style.css";
 export default function fireba(){
     return(
@@ -6,17 +7,17 @@ export default function fireba(){
              <nav className="nav">
                 <ul className="list">
                     <li className="item">
-                        <a class="linknav" href="/">Home</a>
+                        <Link class="linknav" to="/">Home</Link>
                     </li>
                     <li className="item">
-                        <a class="linknav" href="/blog">Blog</a>
+                        <Link class="linknav" to="/blog">Blog</Link>
                     </li>
                     <li className="item">
-                        <a class="linknav" href="/about">About</a>
+                        <Link class="linknav" to="/about">About</Link>
                     </li>
                 </ul>
             </nav>
-            <div className="bnb"></div>
+            <img src={process.env.PUBLIC_URL + '/airbnb-co-muc-thua-lo-hang-tram-trieu-do.png'} className="bnb"></img>
                 <p>
                 Airbnb là một startup với mô hình kết nối người cần thuê nhà, thuê phòng nghỉ với những người có phòng cho thuê trên khắp thế giới. Với những ngôi nhà đẹp lung linh, giá cả phải chăng, chất lượng tốt, nhiều người đã chọn phòng qua Airbnb thay vì khách sạn
                 . Nhưng cũng vì vậy mà Airbnb phải đối mặt với câu hỏi được các chủ nhà quan tâm nhất: "How do I pick the right price?" (Làm thế nào để tôi chọn được đúng giá cho tài sản của mình?)
@@ -35,7 +36,7 @@ export default function fireba(){
                 - Sự tiện lợi, dễ dùng là yêu cầu cơ bản của những ứng dụng ngày nay, nhưng những tiện ích mà bạn mang lợi ở mỗi chức năng là điều thu hút và giữ chân User sử dụng nền tảng của mình.
                 </p>
                 <p>
-                    <b>Nguồn: </b> https://medium.com/airbnb-engineering/how-we-deliver-insights-to-hosts-7d836520a38
+                    <b>Nguồn: </b> <a href='https://medium.com/airbnb-engineering/how-we-deliver-insights-to-hosts-7d836520a38'>Medium</a>
                 </p>
         </div>
     )
