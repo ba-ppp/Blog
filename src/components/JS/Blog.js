@@ -12,10 +12,10 @@ export default function blog(){
             <nav className="nav">
                 <ul className="list">
                     <li className="item">
-                        <a class="linknav" href="/">Home</a>
+                        <Link class="linknav" to="/">Home</Link>
                     </li>
                     <li className="item">
-                        <a class="linknav" href="/about">About</a>
+                        <Link class="linknav" to="/about">About</Link>
                     </li>
                 </ul>
             </nav>

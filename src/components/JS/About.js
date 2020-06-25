@@ -3,16 +3,17 @@ import '../CSS/About.style.css';
 import { Tooltip } from "@chakra-ui/core";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
+import { Link } from 'react-router-dom';
 export default function About(){
     return(
         <div className="blog-about">
             <nav className="nav">
                 <ul className="list">
                     <li className="item">
-                        <a class="linknav" href="/">Home</a>
+                        <Link class="linknav" to="/">Home</Link>
                     </li>
                     <li className="item">
-                        <a class="linknav" href="/blog">Blog</a>
+                        <Link class="linknav" to="/blog">Blog</Link>
                     </li>
                 </ul>
             </nav>
